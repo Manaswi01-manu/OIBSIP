@@ -1,0 +1,432 @@
+*{
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+}
+
+
+
+html{
+
+scroll-behavior:smooth;
+
+}
+
+
+
+body{
+
+font-family:'Poppins',sans-serif;
+
+background:#FFF8F0;
+
+color:#333;
+
+}
+
+
+
+
+/* Navbar */
+
+
+.navbar{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:20px 60px;
+
+background:#6F4E37;
+
+position:sticky;
+
+top:0;
+
+z-index:1000;
+
+}
+
+
+
+.logo{
+
+color:white;
+
+font-size:28px;
+
+font-weight:700;
+
+}
+
+
+
+.nav-links{
+
+display:flex;
+
+gap:30px;
+
+list-style:none;
+
+}
+
+
+
+.nav-links a{
+
+text-decoration:none;
+
+color:white;
+
+font-size:18px;
+
+}
+
+
+
+.nav-links a:hover{
+
+color:#D2A679;
+
+}
+
+
+
+
+
+
+/* Hero */
+
+
+.hero{
+
+height:90vh;
+
+background-image:url("./images/hero.jpg");
+
+background-size:cover;
+
+background-position:center;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+color:white;
+
+}
+
+
+
+.hero-content{
+
+background:rgba(0,0,0,0.55);
+
+padding:40px;
+
+border-radius:15px;
+
+animation:slideUp 1s ease;
+
+}
+
+
+
+.hero-content h1{
+
+font-size:55px;
+
+margin-bottom:20px;
+
+}
+
+
+
+.hero-content p{
+
+font-size:20px;
+
+margin-bottom:30px;
+
+}
+
+
+
+
+.btn{
+
+background:#6F4E37;
+
+color:white;
+
+padding:15px 35px;
+
+border-radius:30px;
+
+text-decoration:none;
+
+font-size:18px;
+
+}
+
+
+
+.btn:hover{
+
+background:#D2A679;
+
+}
+
+
+
+
+
+
+/* Sections */
+
+
+.about,
+.menu,
+.features{
+
+padding:60px;
+
+text-align:center;
+
+}
+
+
+
+.about h2,
+.menu h2,
+.features h2{
+
+font-size:35px;
+
+margin-bottom:20px;
+
+}
+
+
+
+
+
+
+/* Cards */
+
+
+.cards{
+
+display:flex;
+
+justify-content:center;
+
+gap:30px;
+
+flex-wrap:wrap;
+
+}
+
+
+
+
+.card{
+
+background:white;
+
+width:280px;
+
+padding:25px;
+
+border-radius:15px;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.15);
+
+}
+
+
+
+
+.card img{
+
+width:100%;
+
+height:180px;
+
+object-fit:cover;
+
+border-radius:10px;
+
+margin-bottom:15px;
+
+}
+
+
+
+
+.card h3{
+
+color:#6F4E37;
+
+margin-bottom:10px;
+
+}
+
+
+
+
+
+
+
+/* Footer */
+
+
+footer{
+
+background:#6F4E37;
+
+color:white;
+
+text-align:center;
+
+padding:30px;
+
+}
+
+
+
+
+
+
+/* Animation */
+
+
+@keyframes slideUp{
+
+
+from{
+
+opacity:0;
+
+transform:translateY(50px);
+
+}
+
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+
+}
+
+
+
+
+
+
+/* Mobile Responsive */
+
+
+@media(max-width:768px){
+
+
+.navbar{
+
+flex-direction:column;
+
+}
+
+
+.nav-links{
+
+margin-top:20px;
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+
+
+.hero-content h1{
+
+font-size:35px;
+
+}
+
+
+
+.about,
+.menu,
+.features{
+
+padding:30px;
+
+}
+/* Smooth section jump with sticky navbar space */
+
+section{
+    scroll-margin-top:100px;
+}
+
+
+/* Navbar link hover bump effect */
+
+.nav-links a{
+
+    transition:0.3s ease;
+
+}
+
+
+.nav-links a:hover{
+
+    color:#D2A679;
+
+    transform:translateY(-5px);
+
+}
+.nav-links a:active{
+
+    transform:scale(0.9);
+
+}
+.nav-links a.clicked{
+
+    animation:bounce 0.3s ease;
+
+}
+
+
+@keyframes bounce{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-10px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+
+}
+}

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Coffee Cove Cafe</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- Navbar -->
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+☕ Coffee Cove
+</div>
+
+
+<ul class="nav-links">
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#menu">Menu</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+
+</nav>
+
+</header>
+
+
+
+<!-- Hero Section -->
+
+<section class="hero" id="home">
+
+
+<div class="hero-content">
+
+
+<h1>
+Fresh Coffee, Cozy Moments
+</h1>
+
+
+<p>
+Welcome to Coffee Cove, where every cup is crafted with passion and every visit feels special.
+</p>
+
+
+<a href="#menu" class="btn">
+Order Your Coffee
+</a>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<!-- About Section -->
+
+
+<section class="about" id="about">
+
+    <h2>About Coffee Cove</h2>
+
+    <p>
+        Welcome to Coffee Cove, a cozy café created for coffee lovers who enjoy
+        great taste, peaceful moments, and memorable experiences. At Coffee Cove,
+        we believe that every cup of coffee tells a story. Our skilled baristas
+        carefully prepare freshly brewed coffee using premium-quality beans to
+        deliver rich flavours and a perfect aroma in every sip. Along with our
+        signature coffees, we offer delicious cakes, snacks, and treats prepared
+        with fresh ingredients and attention to detail. Whether you are meeting
+        friends, working on your laptop, enjoying a quiet evening, or simply
+        taking a break from your busy day, Coffee Cove provides a warm and
+        welcoming atmosphere where everyone feels at home. Our mission is to
+        create a relaxing café experience by combining quality beverages,
+        friendly service, and a comfortable ambience that keeps our customers
+        coming back for more.
+    </p>
+
+</section>
+
+
+
+
+
+<!-- Menu Section -->
+
+
+<section class="menu" id="menu">
+
+
+<h2>
+Our Special Menu
+</h2>
+
+
+
+<div class="cards">
+
+
+
+<div class="card">
+
+<img src="images/capuccino.jpg">
+
+<h3>
+☕ Cappuccino
+</h3>
+
+<p>
+Rich espresso blended with creamy milk foam.
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<img src="images/chocolate-cake.jpg">
+
+<h3>
+🍰 Chocolate Cake
+</h3>
+
+<p>
+Freshly baked cake with delicious chocolate flavour.
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<img src="images/cafesnacks.jpg">
+
+<h3>
+🥪 Cafe Snacks
+</h3>
+
+<p>
+Tasty snacks perfect with your favourite coffee.
+</p>
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<!-- Features Section -->
+
+
+<section class="features">
+
+
+<h2>
+Why Choose Coffee Cove?
+</h2>
+
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<h3>
+☕ Fresh Coffee
+</h3>
+
+<p>
+Premium coffee beans brewed fresh every day.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>
+🌿 Cozy Ambience
+</h3>
+
+<p>
+A peaceful place to relax and enjoy conversations.
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>
+⭐ Quality Service
+</h3>
+
+<p>
+Friendly service with a memorable cafe experience.
+</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<!-- Footer -->
+
+
+<footer id="contact">
+
+
+<h3>
+Contact Coffee Cove
+</h3>
+
+
+<p>
+📍 Bangalore, India
+</p>
+
+
+<p>
+📞 +91 98765 43210
+</p>
+
+
+<p>
+✉ coffeecove@gmail.com
+</p>
+
+
+<p>
+© 2026 Coffee Cove. All Rights Reserved.
+</p>
+
+
+</footer>
+<script>
+
+const navLinks = document.querySelectorAll(".nav-links a");
+
+navLinks.forEach(link => {
+
+    link.addEventListener("click", function(){
+
+        this.classList.add("clicked");
+
+        setTimeout(() => {
+
+            this.classList.remove("clicked");
+
+        },300);
+
+    });
+
+});
+
+</script>
+
+
+</body>
+
+</html>
