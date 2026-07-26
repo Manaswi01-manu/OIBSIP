@@ -52,3 +52,175 @@ A modern and responsive cafe landing page designed to provide an attractive onli
 
 
 📂 Folder:
+Task1-LandingPage
+
+
+
+---
+
+
+## 🌐 Task 2: Personal Portfolio Website
+
+
+### 🔗 Description
+
+A professional portfolio website developed to showcase my skills, projects, certifications, resume, and achievements.
+
+### ✨ Features
+
+- Personal introduction section
+- Skills showcase
+- Project gallery
+- Resume viewing and downloading
+- Contact section
+- Responsive design
+
+
+### 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+
+📂 Folder:
+
+
+Task2-Personal-Portfolio
+
+
+
+---
+
+
+## 🌡️ Task 3: Temperature Converter
+
+
+### 🔗 Description
+
+A simple and interactive temperature conversion application that allows users to convert values between different temperature units.
+
+
+### ✨ Features
+
+- Celsius conversion
+- Fahrenheit conversion
+- Kelvin conversion
+- User-friendly interface
+- Instant conversion results
+
+
+### 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+
+📂 Folder:
+
+
+Task3-Temperature-Converter
+
+
+
+---
+
+
+# 📂 Repository Structure
+
+
+
+OIBSIP
+│
+├── Task1-LandingPage
+│ ├── index.html
+│ ├── style.css
+│ ├── script.js
+│ └── images
+│
+├── Task2-Personal-Portfolio
+│ ├── index.html
+│ ├── style.css
+│ ├── resume.pdf
+│ └── images
+│
+└── Task3-Temperature-Converter
+├── index.html
+├── style.css
+└── script.js
+
+
+
+---
+
+# 💻 Skills Demonstrated
+
+✔ HTML5  
+✔ CSS3  
+✔ JavaScript  
+✔ Responsive Web Design  
+✔ UI/UX Design Principles  
+✔ Git & GitHub  
+✔ Frontend Development  
+
+
+---
+
+# 🎯 Internship Learning Outcomes
+
+During this internship, I gained practical experience in:
+
+- Developing real-world web pages
+- Creating responsive layouts
+- Improving frontend coding practices
+- Managing projects using GitHub
+- Understanding user-focused design
+
+
+---
+
+# 👩‍💻 About Me
+
+**Manaswi K**
+
+🎓 Computer Science Engineering Student  
+💻 Web Developer | AI & Technology Enthusiast  
+
+Interested in building innovative solutions using:
+- Web Technologies
+- Artificial Intelligence
+- Machine Learning
+
+
+---
+
+# 🔗 Connect With Me
+
+### GitHub
+https://github.com/Manaswi01-manu
+
+
+### LinkedIn
+https://www.linkedin.com/in/manaswi-kochi-2b9a702a4
+
+
+---
+
+⭐ If you find these projects interesting, feel free to explore the repository!
+
+
+This README will look much more professional with:
+
+badges
+project descriptions
+folder structure
+skills
+learning outcomes
+recruiter-friendly presentation
+
+After updating:
+
+git add README.md
+git commit -m "Updated professional README"
+git push
